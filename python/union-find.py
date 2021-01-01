@@ -1,4 +1,7 @@
 from collections import defaultdict
+import sys
+sys.setrecursionlimit(10 ** 6)
+
 class UnionFind():
     def __init__(self, n):
         self.n = n
